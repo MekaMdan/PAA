@@ -75,12 +75,15 @@ void mergSort(int vetor[], int inicio, int fim){
 // Le o string e chama o procedimento de merge
 int main(){
     int a[100001];
+    //int i = 0;
+    // int n;
     //int a[] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
     int size = 0;//sizeof(a)/sizeof(a[0]);
     do {
         scanf("%d", &a[size]);
         size++;
     } while (getchar() != '\n' && size < 100001); 
+    //while( scanf("%d",&n) != EOF ) { a[i++] = n ;  }
     mergSort(a,0,size - 1);
     MostraArray(a, size);
     return 0;
