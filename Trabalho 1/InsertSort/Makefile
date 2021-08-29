@@ -1,2 +1,2 @@
 all:
-	gcc main.c -o main
+	gcc insertsort_160014522_marianaalencar.c -o main
