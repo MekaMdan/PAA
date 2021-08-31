@@ -1,2 +1,2 @@
 all:
-	gcc insertsort_160014522_mariana.c -o main
+	gcc codesptb_160014522_mariana.c -o main
